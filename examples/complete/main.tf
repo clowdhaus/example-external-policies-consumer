@@ -20,7 +20,7 @@ locals {
 module "external_policies" {
   source = "../.."
 
-  create = false
+  # karpenter_version = "v0.33.1"
 
   tags = local.tags
 }

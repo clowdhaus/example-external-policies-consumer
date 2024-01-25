@@ -9,3 +9,13 @@ variable "tags" {
   type        = map(string)
   default     = {}
 }
+
+################################################################################
+# Policy
+################################################################################
+
+variable "karpenter_version" {
+  description = "The version of Karpenter to deploy"
+  type        = string
+  default     = "v0.28.0"
+}
